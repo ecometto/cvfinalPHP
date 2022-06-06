@@ -2,8 +2,7 @@ $(document).ready(function () {
 
     // $('#presentacion-parrafo').hide()
     $('#academicos-parrafo').hide()
-    $('#datos-parrafo').hide()
-    // $('#form-parrafo').hide()
+    // $('#datos-parrafo').hide()
     $('#laborales-parrafo').hide()
 
     $('#presentacion-container').click(() => {

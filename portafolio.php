@@ -17,7 +17,8 @@
 
 <body>
     <header>
-        <?php include "./views/header.php";
+        <?php // include "./views/header.php";
+               include "./views/nav.php";
         ?>
     </header>
 
@@ -32,7 +33,7 @@
             </div>
             <div class="bg-success">
                 <a class="link-info m-2 p-2" href="proyectos/adoquinesWEB/index.html"> Proyecto Prueba ADOQUINCOR...</a>
-                <p>Prueba realizada de single page - panadería. RESPONSIVE <br>
+                <p>Prueba realizada de single page - Fabrica de Adoquines. RESPONSIVE <br>
                 Imágenes, datos y texto de prueba (NO REALES). <br>
                <b> Tecnologías/ Lenguajes:</b> HTML, CSS, JS, BOOTSTRAP, PARALLAX, SCROLLREVEAL
                 </p>
@@ -48,7 +49,7 @@
                <b> Tecnologías/ Lenguajes:</b> HTML, CSS, JS, JQUERY, DATATABLES, BOOTSTRAP, PHP, MYSQL,</p>
             </div>
             <div class="bg-success">
-                <a class="link-info m-2 p-2" href="proyectos/react/index.html"> Pruebas con REACT...</a>
+                <a class="link-info m-2 p-2" href="react/index.html"> Pruebas con REACT...</a>
                 <p>Hoja de pruebas varias con REACT  <br>
                <b> TEMAS:</b> React, React Hooks, ReactRouter, UseState, UseEffect, Props, Fetch Api, entre otros</p>
             </div>

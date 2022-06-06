@@ -20,7 +20,9 @@
 <body>
 
     <header>
-        <?php include "./views/header.php";
+        <?php 
+        include "./views/nav.php";
+        include "./views/encabezado.php";
         ?>
     </header>
 
@@ -31,7 +33,7 @@
                 <h3 class="mt-3 py-1 h3-title" id="presentacion-container">NOTA DE PRESENTACIÓN... <i id="presentacion-icono" class="fas fa-chevron-circle-up "></i></h3>
                 <p id="presentacion-parrafo">Este sitio WEB es para presentar mi curriculum vitae y poner a su
                     consideración mis aptitudes profesionale, laborales y académicas. <br>
-                    Mi nombre es <strong>Edgardo Daniel Cometto</strong> . Tengo 41 años. Soy casado, tengo 3 hijas, y vivo en
+                    Mi nombre es <strong>Edgardo Daniel Cometto</strong> . Tengo 42 años. Soy casado, tengo 3 hijas, y vivo en
                     Córdoba Capital.-
                     <br>
                     Egresé como Licenciado en Organización Industrial en la Universidad Tecnológica Nacional
