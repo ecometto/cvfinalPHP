@@ -3,10 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
+a{
+  /* background-color:azure; */
+  padding: 5px;
+  margin: 5px;
+  color: blueviolet;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+body{
+  background-image: url('../img/fondo1.webp');
+  background-size:auto;
+  background-repeat: repeat;
+}
 
 .h3-title{
-  font-size: 1em;
-  background: linear-gradient(90deg,rgba(120,120,120,0.5), rgba(200,200,200,0.5))
+  font-size: 1.2em;
+  padding: 10px;
+  background: linear-gradient(90deg,rgba(120,120,120,0.5), rgba(220,220,220,0.5))
 }
 
 .footer {
@@ -18,6 +33,11 @@
   animation-direction: alternate;
   animation-timing-function: linear;
 }
+
+.projectDiv{
+  background: linear-gradient(90deg, rgba(220,220,220,0.5), rgba(120,120,120,0.5));
+}
+
 @keyframes example {
   from {
     background-color: black;

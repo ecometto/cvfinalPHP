@@ -25,8 +25,9 @@
         include "./views/encabezado.php";
         ?>
     </header>
+    <div class="container-fluid bg-secondary" style="height: 10px; background: linear-gradient(red, blue);"></div>
 
-    <div class="container">
+    <div class="container bg-light p-3 mt-2">
         <main>
             <h1>Curriculum vitae Edgardo Cometto</h1>
             <div>

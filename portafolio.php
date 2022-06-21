@@ -18,45 +18,45 @@
 <body>
     <header>
         <?php // include "./views/header.php";
-               include "./views/nav.php";
+        include "./views/nav.php";
         ?>
     </header>
 
-    <div class="container my-3 ">
-        <h3 class=" mt-3 py-1 h3-title">LISTA DE PROYECTOS <strong>Ecometto</strong> </h3>
-        <div class="text-light">
-            <div class="bg-success">
-                <a class="link-info m-2 p-2" href="proyectos/panaderiaDC/index.html"> Proyecto Panaderia Dulce Catalina...</a>
-                <p>Prueba realizada de single page - panadería. RESPONSIVE <br>
-                Imágenes, datos y texto de prueba (NO REALES). <br>
-               <b> Tecnologías/ Lenguajes:</b> HTML, CSS, JS, BOOTSTRAP</p>
-            </div>
-            <div class="bg-success">
-                <a class="link-info m-2 p-2" href="proyectos/adoquinesWEB/index.html"> Proyecto Prueba ADOQUINCOR...</a>
-                <p>Prueba realizada de single page - Fabrica de Adoquines. RESPONSIVE <br>
-                Imágenes, datos y texto de prueba (NO REALES). <br>
-               <b> Tecnologías/ Lenguajes:</b> HTML, CSS, JS, BOOTSTRAP, PARALLAX, SCROLLREVEAL
-                </p>
-            </div>
-            <div class="bg-success">
-                <a class="link-info m-2 p-2" href="proyectos/inventario/index.php"> Proyecto Sistema de Inventario...</a>
-                <p>Prueba de sistema de control de inventario. RESPONSIVE <br>
-               <b> Tecnologías/ Lenguajes:</b> HTML, CSS, JS, JQUERY, AJAX, BOOTSTRAP, PHP, MYSQL,</p>
-            </div>
-            <div class="bg-success">
-                <a class="link-info m-2 p-2" href="proyectos/agenda/index.php"> Agenda de contactos...</a>
-                <p>Prueba de sistema de agenda de contactos. RESPONSIVE  <br>
-               <b> Tecnologías/ Lenguajes:</b> HTML, CSS, JS, JQUERY, DATATABLES, BOOTSTRAP, PHP, MYSQL,</p>
-            </div>
-            <div class="bg-success">
+    <div class="container my-3 bg-light py-3 ">
+        <h3 class=" mt-3 py-1 h3-title">ALGUNOS PROYECTOS.. </h3>
+        <div class="p-2">
+
+
+            <div class="text-dark projectDiv  border rounded p-4 my-3 ">
+                <h5>PROYECTOS / PRUEBAS REACT.</h5>
+                <p> <b> REACT HOOKS:</b> ReactRouter, UseState, UseEffect, useRef, Props, Fetch Api, entre otros </p>
                 <a class="link-info m-2 p-2" href="react/index.html"> Pruebas con REACT...</a>
-                <p>Hoja de pruebas varias con REACT  <br>
-               <b> TEMAS:</b> React, React Hooks, ReactRouter, UseState, UseEffect, Props, Fetch Api, entre otros</p>
+            </div>
+
+            
+            <div class="text-dark projectDiv border rounded p-4 my-3">
+                <h5>PROYECTOS / PROGRAMAS CON USO DE BASES DE DATOS. RESPONSIVE</h5>
+                <p> <b> Tecnologías/ Lenguajes:</b> HTML, CSS, JS, BOOTSTRAP, JQUERY, AJAX, BOOTSTRAP, PHP, MYSQL, DATATABLES</p>
+                <p> <b>Nota:</b> Imágenes, datos y texto de prueba (NO REALES). </p>
+                
+                <a class="link-info m-2 p-2" href="proyectos/inventario/index.php"> Proyecto Sistema de Inventario...</a> <br>
+                <a class="link-info m-2 p-2" href="proyectos/agenda/index.php"> Agenda de contactos...</a>    
+            </div>
+
+            <div class="text-dark projectDiv border rounded p-4 my-3">
+                <h5>PROYECTOS SINGLE PAGE</h5>
+                <p>SINGLE PAGE. RESPONSIVE <br>
+                    <b> Tecnologías/ Lenguajes:</b> HTML, CSS, JS, BOOTSTRAP, SCROLLREVEAL
+                </p>
+                <p> <b>Nota:</b> Imágenes, datos y texto de prueba (NO REALES). </p>
+    
+                <a class="link-info m-2 p-2" href="proyectos/panaderiaDC/index.html"> Proyecto Panaderia Dulce Catalina...</a> <br>
+                <a class="link-info m-2 p-2" href="proyectos/adoquinesWEB/index.html"> Proyecto Prueba ADOQUINCOR...</a>
             </div>
         </div>
-
-    <p><b>NOTA: </b> Esta página de proyectos es dinámica y muchos de los proyectos realizados en meses anteriores van quedando "desactualizados" ya que diariamente voy adquiriendo nuevos conocimientos, lo que me permite la mejora continua de la codificación. <br>
-</p>
+        
+        <p><b>NOTA: </b> Esta página de proyectos es dinámica y muchos de los proyectos realizados en meses anteriores van quedando "desactualizados" ya que diariamente voy adquiriendo nuevos conocimientos, lo que me permite la mejora continua de la codificación. <br>
+        </p>
 
 
 

@@ -5,18 +5,19 @@
     }
 
     .cabecera {
-        background-image: url('./img/fondo1.webp');
+        background-image: url('./img/fondo.jpg');
     }
 
     .card {
-        max-width: 300px;
-        background-color: rgba(250,250, 250, 0.7);
+        max-width: 320px;
+        background-color: rgba(250,250, 250, 0.8);
     }
 
     .card-text{
         background-color: rgba(256, 256, 256, 0.5);
         padding-left: 5px;
         font-weight: 500;
+        font-size: 18px;
     }
 
     .txt-machine {
@@ -39,21 +40,6 @@
 
 </style>
 <div class="header container-fluid bg-dark text-light">
-
-    <!-- <div class="nav row">
-        <div class="row d-flex justify-content-between m-2">
-            <div class="col-md-2 my-2">
-                <a target="_blank" href="CV.pdf" class="btn btn-secondary"> Descargar CV</a>
-            </div>
-            <div class="nav col-md-10 justify-content-md-end justify-content-center">
-                <ul class="d-flex justify-content-end list-unstyled mx-5">
-                    <li class="selected mx-md-3 mx-1 p-3 bg-light rounded link-color "><a class="link-secondary fw-bold" href="index.php"> HOME </a></li>
-                    <li class="mx-md-3 mx-1 p-3 bg-light rounded link-color "><a class="link-secondary fw-bold" href="datos.php"> CONTACT </a></li>
-                    <li class="mx-md-3 mx-1 p-3 bg-light  rounded link-color"><a class="link-secondary fw-bold" href="portafolio.php"> PROJECTS </a></li>
-                </ul>
-            </div>
-        </div>
-    </div> -->
 
     <div class="cabecera row">
         <div class="col-md-6 d-flex justify-content-center">
